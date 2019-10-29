@@ -3,18 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
-  coding_lab = ["wow", "Iam", "really", "learning"]
+  array = [1, 2, 3, 4]
 end
 
-def add_element_to_end_of_array(array,element)
-  coding_lab = ["wow", "Iam", "really", "learning"]
-  coding_lab.push("arrays!")
-  element = ("arrays!")
-  p coding_lab
-end
+def add_element_to_end_of_array
+   array = []
+   array << "arrays!"
+  end 
 
-def add_element_to_start_of_array(array, element)
-  coding_lab = ["wow", "Iam", "really", "learning","arrays!"]
+def add_element_to_start_of_array
   coding_lab.unshift("wow")
   element = ("wow")
   p coding_lab
